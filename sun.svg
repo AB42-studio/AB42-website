@@ -1,0 +1,15 @@
+<svg id="dark-btn" width="192" height="192" viewBox="0 0 192 192" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="sun 1">
+<path id="Vector" d="M96 141C120.853 141 141 120.853 141 96C141 71.1472 120.853 51 96 51C71.1472 51 51 71.1472 51 96C51 120.853 71.1472 141 96 141Z" stroke="#36E08F" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="setas">
+<path id="Vector_2" d="M96 27V12" stroke="#36E08F" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M47.2096 47.2096L36.603 36.603" stroke="#36E08F" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M27 96H12" stroke="#36E08F" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M47.2096 144.79L36.603 155.397" stroke="#36E08F" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_6" d="M96 165V180" stroke="#36E08F" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_7" d="M144.79 144.79L155.397 155.397" stroke="#36E08F" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_8" d="M165 96H180" stroke="#36E08F" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_9" d="M144.79 47.2096L155.397 36.603" stroke="#36E08F" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>
