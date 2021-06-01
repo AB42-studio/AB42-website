@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+:root {
   --cor-bg-principal: #f5f5f5;
   --cor-bg-dark: rgb(8, 6, 10);
   --cor-font: #070707;
@@ -117,10 +120,6 @@ main {
   color: var(--cor-contraste);
 }
 
-#saudacoes::first-letter {
-  color: var(--cor-contraste);
-}
-
 #info {
   display: flex;
   flex-direction: column;
@@ -145,6 +144,16 @@ main {
   color: var(--cor-contraste);
 }
 
+.img-conatiner {
+  height: 100%;
+}
+
+#imgP {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 aside {
   z-index: 1;
   position: relative;
@@ -153,7 +162,7 @@ aside {
   background: var(--cor-contraste);
 }
 
-.social {
+.social-container {
   position: absolute;
   left: 50%;
   bottom: 3rem;
@@ -169,6 +178,7 @@ aside {
 }
 
 .social_hover {
+  transform: translateY(-65px);
   position: relative;
   bottom: 27px;
   outline: none;
@@ -186,4 +196,28 @@ footer {
   height: 10rem;
   font-size: 2rem;
   font-weight: 700;
+}
+
+@media screen and (max-width: 775px) {
+  main {
+    height: 100%;
+  }
+  #saudacoes {
+    font-size: 5.8vw;
+  }
+
+  #info-title p,
+  #info-title h1 {
+    font-size: 1.4rem;
+  }
+
+  #info span {
+    font-size: 3vw;
+  }
+
+  #imgP {
+    position: relative;
+
+    width: 90vw;
+  }
 }
