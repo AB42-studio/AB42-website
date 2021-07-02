@@ -11,7 +11,7 @@ temaBtn.addEventListener( 'click', () =>{
         lightBtn.style.display = "flex";
         background.style.background = "var(--cor-bg-dark)";
         background.style.color = "var(--cor-font-dark)";
-        logo.src = "./img/logotipoWG.svg";
+        logo.src = "./client/img/logotipoWG.svg";
         darkMode = true;
     }
     else{
@@ -19,7 +19,7 @@ temaBtn.addEventListener( 'click', () =>{
         lightBtn.style.display = "none";
         background.style.background =  "var(--cor-bg-principal)";
         background.style.color = "var(--cor-font)";
-        logo.src = "./img/logotipoBG.svg";
+        logo.src = "./client/img/logotipoBG.svg";
         darkMode = false;
     }
    
